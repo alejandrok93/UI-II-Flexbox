@@ -257,6 +257,7 @@ footer {
 	background: #D3D3D3;
 	border: 2px solid black;
 	padding: 15px;
+	margin: 20px;
 
 }
 
@@ -276,10 +277,43 @@ footer {
 
 }
 
+.extra-facts {
+	display: flex;
+	flex-flow: row wrap;
+
+	margin-top: 40px;
+}
+
+.extra-facts h2 {
+	font-size: 24px;
+display: flex;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.extra-facts-text {
+	width: 40%;
+}
+
+.extra-facts-text ul {
+	margin-top: 20px;
+	margin-left: 30px;
+    list-style-type: circle;
+
+}
+
+.services-info-img {
+	height: 350px;
+	width: 400px;
+	margin-left: 200px;
+	align-self: flex-end;
+}
 
 
 
-
+footer p {
+	margin: 0 auto;
+}
 
 
 
